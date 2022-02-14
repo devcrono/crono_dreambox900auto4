@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<meta charset="UTF-8" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<title>CRONO_ DREAMBOX PS4 FW 9.00 V4</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/simple-notify.min.css" />
+<style> 
+    html, body{
+      background: url('img/bg1.png');
+      background-attachment: fixed;
+      margin:auto;
+      font-size:20px;
+      font-weight:lighter;
+      color:#FFFFFF;
+      background-color: #000;
+      background-attachment: fixed;
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+}
+</style>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cache Offline: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Instalado com Successo ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Agora Feche e Re-Abra o Navegador...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<h1 id="msgs">CRONO_ DREAMBOX PS4 9.XX V4</h1>
+<hr>
+<br>
+<div id="main-section">
+
+
+<button class="btn btn-main" type="button"><img class="icone" src="img/HenEnable.png" ><br> GoldHEN v2.1.1 </button>
+<button class="btn" ><img class="icone" src="img/binloader.png" /><br> Bin Loader </button>
+
+<br>
+<a href="https://twitter.com/cronocardoso"><img class="icon" src="img/icon.gif"/></a> 
+<br>
+
+<hr style="width: 70%"><h1 style="color:#00FF12;" >PAYLOADS DISPONIVEIS</h1><hr style="width: 70%">
+
+<button class="btn" ><img class="icone" src="img/dumper.png" /><br> Game Dumper </button>
+<button class="btn" ><img class="icone" src="img/dumper.png" /><br> Update Dumper </button>
+<button class="btn" ><img class="icone" src="img/dumper.png" /><br> SGU Dumper </button>
+<button class="btn" ><img class="icone" src="img/dumper.png" /><br> MGU Dumper </button>
+<button class="btn" ><img class="icone" src="img/todex.png" /><br> To -  Dex </button>
+<a href="webactivator.html"><button class="btn"><img class="icone" src="img/todex.png" /><br> Ativador Web</button></a>
+<button class="btn" ><img class="icone" src="img/ftp.png" /><br> FTP </button>
+
+<br>
+
+<button class="btn" ><img class="icone" src="img/app2usb.png" /><br> App-To-Usb </button>
+<button class="btn" ><img class="icone" src="img/ps4debug.png" /><br> PS4 Debug </button>
+<button class="btn" ><img class="icone" src="img/backup.png" /><br> Backup DB </button>
+<button class="btn" ><img class="icone" src="img/restore.png" /><br> Restaurar DB </button>
+<button class="btn" ><img class="icone" src="img/enableupdate.png" /><br> Habilitar Upadates </button>
+<button class="btn" ><img class="icone" src="img/disableupdate.png" /><br> Desabilitar Upadates </button>
+<button class="btn" ><img class="icone" src="img/disableupdate.png" /><br> Bloquear Historico </button>
+
+<br>
+
+<button class="btn" onclick=load_webrte()><img class="icone" src="img/rte.png" /><br> Web - RTE </button>
+<a href="http://ps4trainer.com/Trainer/index.html"><button class="btn"><img class="icone" src="img/rte.png" /><br> PS4 WEB Trainer</button></a>
+<button class="btn btn-web" onclick=load_mods()><img class="icone" src="img/rte.png" /><br> Games Mods (Online) </button>
+<button class="btn btn-toolbox" onclick=load_toolbox()><img class="icone" src="img/ps4debug.png" /><br> Orbis Toolbox </button>
+<button class="btn" onclick=load_fanthreshold()><img class="icone" src="img/FanControl.png" /><br>  Controle de Fan </button><select id="tempC" style="font-size:20px; height:35px; width:60px; background-color:#4D0094; color:#fff; border:3px solid #6C0000" ></select>&#176;C
+
+<br>
+<br>
+
+<button class="btn" ><img class="icone" src="img/disableupdate.png" /><br> Desabilitar ASLR </button>
+<button class="btn" ><img class="icone" src="img/history.png" /><br> Exit IDU </button>
+<button class="btn" ><img class="icone" src="img/keydumper.png" /><br> RIF Renaner </button>
+<button class="btn" ><img class="icone" src="img/keydumper.png" /><br>  Permanent UART </button>
+<button class="btn" ><img class="icone" src="img/keydumper.png" /><br> Kernel Dumper </button>
+<button class="btn" ><img class="icone" src="img/keydumper.png" /><br> Module Dumper </button>
+<br>
+
+
+<button class="btn" ><img class="icone" src="img/linux.png" /><br> Linux 1GB </button></a>
+<button class="btn" ><img class="icone" src="img/linux.png" /><br> Linux 2GB </button></a>
+<button class="btn" ><img class="icone" src="img/linux.png" /><br> Linux 3GB </button></a>
+<button class="btn" ><img class="icone" src="img/linux.png" /><br> Linux 4GB </button></a>
+<button class="btn" ><img class="icone" src="img/linux.png" /><br> Linux 5GB </button></a>
+<br>
+</div>
+
+<div id="mods-section">
+
+<hr style="width: 70%"><h1 style="color:#00FF12;" >GAMES MODS</h1><hr style="width: 70%">
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Arabic Guy <br> V1.27 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Arabic Guy <br> V1.32 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Arabic Guy <br> V1.33 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> WildeModz <br> 1.32 V1.3 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> WildeModz <br> 1.33 V1.3 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> WildeModz <br> 1.38 V1.6 </button>
+<br>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Beef Queef Mod <br> V1.33 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Beef Queef Mod <br> V1.34 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Beef Queef Mod <br> V1.38d </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Expulsion <br> V3.0 </button>
+<br>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Oysters Menu <br> V1.00 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Oysters Menu <br> V1.13 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Oysters Menu <br> V1.19 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Oysters Menu <br> V1.24 </button>
+<button class="btn" ><img class="icone" src="img/gtav.png" /><br> Oysters Menu <br> V1.29 </button>
+<br><br>
+
+</body>
+</html>
