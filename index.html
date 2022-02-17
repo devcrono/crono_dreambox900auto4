@@ -28,7 +28,8 @@
 </head>
 <body onload="poc()">
 <script>
-if (window.applicationCache.status=='0'){window.location.replace("cache.html");}
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Instalando Cache Offline: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Instalado com Successo ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Agora Feche e Re-Abra o Navegador...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 <h1 id="msgs">CRONO_ DREAMBOX PS4 FW 9.00 V4</h1>
 <hr>
